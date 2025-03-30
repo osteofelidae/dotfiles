@@ -1,0 +1,23 @@
+background-color=#1c1c1c55
+
+text-color=#f3e9d1ff
+font=Cantarell 13
+
+width=600
+height=200
+
+border-size=2
+border-radius=10
+border-color=#98a69fff
+
+margin=10, 15
+
+progress-color=over #f3e9d155
+
+default-timeout=5000
+
+padding=10
+
+anchor=bottom-right
+
+sort=+time

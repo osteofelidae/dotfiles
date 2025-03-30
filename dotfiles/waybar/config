@@ -1,0 +1,124 @@
+{
+    "layer": "top", // Waybar at top layer
+    "position": "bottom", // Waybar position (top|bottom|left|right)
+    "height": 70, // Waybar height (to be removed for auto height)
+    "width": 2390, // Waybar width
+    "spacing": 0, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "modules-left": ["custom/left", "pulseaudio", "backlight", "network", "battery", "custom/right"],  // "hyprland/window"
+    "modules-center": ["custom/left", "hyprland/workspaces", "wlr/taskbar", "custom/right"],
+    "modules-right": ["custom/left", "tray", "cpu", "memory", "temperature", "clock", "custom/right"],
+    // Modules configuration
+
+
+    "hyprland/workspaces": {
+        "disable-scroll": false,
+        "active-only": false,
+        "all-outputs": true,
+        "warp-on-scroll": false,
+        "format": "{name}",
+    },
+
+    "wlr/taskbar": {
+        "icon-size": 22,
+        "on-click": "activate",
+    },
+
+    "tray": {
+        "icon-size": 19,
+        "spacing": 10,
+        "show-passive-items": true
+    },
+    "clock": {
+        "format": "  {:%H:%M}",
+        "tooltip-format": "{:%a, %d %b %Y %H:%M}",
+        "tooltip": true
+    },
+    "cpu": {
+        "format": "  {usage}%",
+        "tooltip": false
+    },
+    "memory": {
+        "format": "  {}%",
+        "tooltip": false
+    },
+    "temperature": {
+        // "thermal-zone": 2,
+        // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+        "critical-threshold": 80,
+        // "format-critical": "{temperatureC}°C",
+        "format": "{icon}  {temperatureC}°C",
+        "format-icons": ["", "", ""],
+        "tooltip": false
+    },
+    "backlight": {
+        // "device": "acpi_video1",
+        "format": "{icon}  {percent}%",
+        "format-icons": ["", "", "", "", "", "", "", "", ""],
+        "tooltip": false
+    },
+    "battery": {
+        "states": {
+            //"good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format-charging": "  {capacity}%",
+        "format-plugged": "  {capacity}%",
+        "format": "{icon}  {capacity}%",
+        "tooltip-format": "{time}",
+        //"format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""],
+        "tooltip": true
+    },
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "  {signalStrength}%",
+        "format-ethernet": "  {ipaddr}/{cidr}",
+        "tooltip-format": "{essid}",
+        //"format-linked": "  {ifname} (No IP)",
+        "format-disconnected": "  (disconnected)",
+        //"format-alt": " {ifname} ({ipaddr}/{cidr})",
+        "tooltip": true,
+        "on-click": "alacritty -e 'nmtui'"
+    },
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{icon}  {volume}%",
+        "format-bluetooth": "  {volume}%",
+        "format-bluetooth-muted": "  {volume}%",
+        "format-muted": "  {volume}%",
+        "format-source": "mic {volume}%",
+        "format-source-muted": "mic muted",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol",
+        "tooltip": true
+    },
+
+    "custom/left": {
+        "format": " ",
+        "interval" : "once",
+        "tooltip": false
+    },
+
+    "custom/right": {
+        "format": " ",
+        "interval" : "once",
+        "tooltip": false
+    },
+
+    "custom/spacer": {
+        "format": " | ",
+        "interval" : "once",
+        "tooltip": false
+    },
+}

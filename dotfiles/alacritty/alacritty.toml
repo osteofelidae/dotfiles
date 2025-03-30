@@ -1,0 +1,12 @@
+[colors.primary]
+background = "#1c1c1c"
+foreground = "#f3e9d1"
+
+[colors.cursor]
+cursor = "#f3e9d1"
+
+[font]
+size = 12
+
+[font.normal]
+family = "MesloLGS NF"
