@@ -6,3 +6,4 @@ hypr
 mako
 waybar
 wofi
+sublime-text

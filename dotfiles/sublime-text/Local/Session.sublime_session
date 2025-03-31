@@ -1,0 +1,977 @@
+{
+	"file_history":
+	[
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 4/tracking/inference.py",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 4/tracking/bayesNet.py",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 4/tracking/factorOperations.py",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 4/tracking/bustersAgents.py",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 4/tracking/autograder.py",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Dotfiles/subfolders.txt",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Dotfiles/sync.sh",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Dotfiles/dotfiles/waybar/config",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Dotfiles/dotfiles/waybar/style.css",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Web Dev/osteofelidae.github.io/v4/index.html",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Web Dev/osteofelidae.github.io/v4/style.css",
+		"/home/egg/.config/hypr/hyprland.conf",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/C/Desktop Entry Manager/src/main.c",
+		"/home/egg/.config/sublime-text/Packages/User/ayu-dark.sublime-color-scheme",
+		"/home/egg/.config/sublime-text/Packages/ayu/ayu-dark.sublime-color-scheme",
+		"/home/egg/.config/sublime-text/Packages/Theme - Cyanide/Twilightcyanide.tmTheme",
+		"/home/egg/.config/sublime-text/Packages/User/Twilightcyanide.sublime-color-scheme",
+		"/home/egg/.config/sublime-text/Packages/Theme - Cyanide/Cyanide - Wood.sublime-theme",
+		"/home/egg/.config/sublime-text/Packages/User/Cyanide - Wood.sublime-theme",
+		"/home/egg/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+		"/home/egg/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+		"/home/egg/.config/sublime-text/Packages/Theme - Midnight/Midnight.dark.tmTheme",
+		"/home/egg/.config/sublime-text/Packages/User/Midnight.dark.sublime-color-scheme",
+		"/home/egg/.config/sublime-text/Packages/Theme - Midnight/Midnight-dark.sublime-theme",
+		"/home/egg/.config/sublime-text/Packages/User/Midnight-dark.sublime-theme",
+		"/home/egg/.config/sublime-text/Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+		"/home/egg/.config/sublime-text/Packages/User/Mariana.sublime-color-scheme",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 2/multiagent/game.py",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 2/multiagent/pacman.py",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 2/multiagent/util.py",
+		"/home/egg/.zshrc",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/tasks/setup.sh",
+		"/home/egg/Documents/Scripts/switch_refresh_rate.sh",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Python/linali/src/utils/config_utils.py",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 2/multiagent/multiAgents.py",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 1/searchAgents.py",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 1/search.py",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 1/util.py",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 1/pacman.py",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 1/game.py",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 1/test_cases/q2/graph_infinite.test",
+		"/home/egg/Downloads/hyprland.conf.txt",
+		"/home/egg/.config/waybar/config",
+		"/home/egg/.config/waybar/style.css",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Arch_kernel/linux/PKGBUILD",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Arch_kernel/linux/config",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/The Complete 2023 Web Development Bootcamp/notes.md",
+		"/usr/share/applications/thunar.desktop",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/tutorial/shopSmart.py",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/tutorial/shopAroundTown.py",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Arch kernel/linux/config",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 330/CSE330-OS/test_zip_contents.sh",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 330/Project 1/test_zip_contents.sh",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 340/Final Review/testing.c",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 340/Homework 2/lol/main.c",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/README.md",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/server.py",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/cse412-final-project/index.html",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/cse412-final-project/src/main.tsx",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/cse412-final-project/src/App.tsx",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/data/load_data.py",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/data/load_data.sql",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/db/PG_VERSION",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/tasks/start_db.sh",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/tasks/setup_db.sh",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/C/LetterBoxedSolver/results/results.txt",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/C/LetterBoxedSolver/README.md",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 340/Project 3/CSE340_F24_Project 3/solution.cc",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 340/Project 3/CSE340_F24_Project 3/compiler.cc",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/C/LetterBoxedSolver/results/possiblewords.txt",
+		"/home/egg/Downloads/OrganizationEventInvitations.csv",
+		"/home/egg/.config/zed/settings.json",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/TEMP/irelia build?.txt",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/.venv/bin/pip",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/.venv/lib/python3.12/site-packages/pip/__pip-runner__.py",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/.venv/lib/python3.12/site-packages/pip/__main__.py",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/.venv/lib/python3.12/site-packages/pip/__init__.py",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/.venv/bin/activate",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Python/linali/models/speecht5_tts_expresso/sad/config.json",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Python/linali/models/speecht5_tts_expresso/sad/added_tokens.json",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/start_pg_server.sh",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Python/linali/models/speecht5_tts_expresso/sad/generation_config.json",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 412/start_pg_server.sh",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Python/linali/data/librispeech/LibriSpeech/dev-clean/84/121123/84-121123.trans.txt",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Python/linali/data/librispeech/LibriSpeech/dev-clean/2803/154320/2803-154320.trans.txt",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Python/linali/data/librispeech/LibriSpeech/dev-clean/1993/147149/1993-147149.trans.txt",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 412/hw1/hw1/makefile",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 412/stop_pg_server.sh",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/linali/data/vctk/license_text",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 412/set_env_vars.sh",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/linali/data/vctk/README.txt",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 412/set_pg_port.sh",
+		"/home/egg/.config/pnpm/rc",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 412/hw1/hw1/setup_postgres/create_tables.sql",
+		"/home/egg/Downloads/SearchBot_results_for_ Legend.txt",
+		"/home/egg/Documents/Misc/ebook irc instructions.txt",
+		"/home/egg/Downloads/SearchBot_results_for_ James Patterson.txt",
+		"/home/egg/Documents/Misc/confirmation number.txt",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/The Complete 2023 Web Development Bootcamp/notes.md",
+		"/home/egg/photorec.ses",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/DAT 301/Lab 1/Lab-1.log",
+		"/home/egg/hs_err_pid7637.log",
+		"/home/egg/nano.3324.save",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/ai-openmic/AI_open_mic_dataset/funny_text/SM_IGT_text_18.txt",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 355/Homework 01/Q1a.jff",
+		"/home/egg/Downloads/OrganizationRoster.csv",
+		"/home/egg/Downloads/font temp/info.txt",
+		"/home/egg/.irssi/config",
+		"/home/egg/Downloads/SearchBot_results_for_ Novae Caelum.txt",
+		"/home/egg/Documents/ebook irc instructions.txt",
+		"/home/egg/Downloads/font temp/misc/READ ME.txt",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/raw/VAD_segments.txt",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/raw/read_transcriptions.txt",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/expresso/read_transcriptions.txt",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/expresso/README.txt",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/expresso/LICENSE.txt",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/expresso/splits/dev.txt",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/expresso/splits/train.txt",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/expresso/splits/test.txt",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 340/Project 1/Project1_files/tests/test_realnum_03.txt.expected",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Web Dev/osteofelidae.github.io/osteofelidae.github.io/public/manifest.json",
+		"/home/egg/Documents/openvpn/USA_195.123.240.66_tcp.ovpn",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Web Dev/osteofelidae.github.io/osteofelidae.github.io/src/reportWebVitals.js",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Web Dev/osteofelidae.github.io/osteofelidae.github.io/src/setupTests.js",
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/cache/tts/test3.wav",
+		"/home/egg/Downloads/OrganizationRoster-2024Mar11.csv",
+		"/home/egg/Downloads/dataset temp/temp.py",
+		"/home/egg/Downloads/dataset temp/out.json"
+	],
+	"folder_history":
+	[
+		"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/C/Desktop Entry Manager",
+		"/home/egg/.config"
+	],
+	"last_version": 4192,
+	"last_window_id": 93,
+	"log_indexing": false,
+	"next_update_check": 1743460774,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 1430.0,
+		"new_window_maximized": true,
+		"new_window_position":
+		[
+			0.0,
+			36.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"living",
+						"livingGhostPositionDistributions"
+					],
+					[
+						"livingGh",
+						"livingGhostPositionDistributions"
+					],
+					[
+						"po",
+						"potentialGhostPosition"
+					],
+					[
+						"ghos",
+						"ghostLosses"
+					],
+					[
+						"gho",
+						"ghostLosses"
+					],
+					[
+						"ghost",
+						"ghostPos"
+					],
+					[
+						"new",
+						"newGhostStates"
+					],
+					[
+						"cho",
+						"chosenIndex"
+					],
+					[
+						"Start",
+						"startingPosition"
+					],
+					[
+						"get",
+						"getSuccessors"
+					],
+					[
+						"getS",
+						"getSuccessors"
+					],
+					[
+						"art",
+						"artist_id"
+					],
+					[
+						"upda",
+						"updateCacheIndex"
+					],
+					[
+						"cached",
+						"cachedCurr"
+					],
+					[
+						"cac",
+						"cachedIndex"
+					],
+					[
+						"ca",
+						"cachedPrev"
+					],
+					[
+						"cach",
+						"cachedCurr"
+					],
+					[
+						"getDi",
+						"getDijkstraPath"
+					],
+					[
+						"his",
+						"history_count"
+					],
+					[
+						"blo",
+						"blocksAvailable"
+					],
+					[
+						"random",
+						"randomNumber2"
+					],
+					[
+						"align",
+						"align-items"
+					],
+					[
+						"justify",
+						"justify-items"
+					],
+					[
+						"content",
+						"align-content"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"color",
+						"UI: Select Color Scheme"
+					],
+					[
+						"theme",
+						"UI: Select Theme"
+					],
+					[
+						"customi",
+						"UI: Customize Color Scheme"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"customize color",
+						"UI: Customize Color Scheme"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					],
+					[
+						"remove ",
+						"Package Control: Remove Package"
+					],
+					[
+						"ayu",
+						"ayu: Activate theme"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"packa",
+						"Package Control: Remove Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 4/tracking/inference.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 4/tracking/bayesNet.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 4/tracking/factorOperations.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 4/tracking/bustersAgents.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 4/tracking/autograder.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Dotfiles/subfolders.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Dotfiles/sync.sh",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Dotfiles/dotfiles/waybar/config",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Dotfiles/dotfiles/waybar/style.css",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Web Dev/osteofelidae.github.io/v4/index.html",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Web Dev/osteofelidae.github.io/v4/style.css",
+				"/home/egg/.config/hypr/hyprland.conf",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/C/Desktop Entry Manager/src/main.c",
+				"/home/egg/.config/sublime-text/Packages/User/ayu-dark.sublime-color-scheme",
+				"/home/egg/.config/sublime-text/Packages/ayu/ayu-dark.sublime-color-scheme",
+				"/home/egg/.config/sublime-text/Packages/Theme - Cyanide/Twilightcyanide.tmTheme",
+				"/home/egg/.config/sublime-text/Packages/User/Twilightcyanide.sublime-color-scheme",
+				"/home/egg/.config/sublime-text/Packages/User/Cyanide - Wood.sublime-theme",
+				"/home/egg/.config/sublime-text/Packages/Theme - Cyanide/Cyanide - Wood.sublime-theme",
+				"/home/egg/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+				"/home/egg/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+				"/home/egg/.config/sublime-text/Packages/Theme - Midnight/Midnight.dark.tmTheme",
+				"/home/egg/.config/sublime-text/Packages/User/Midnight.dark.sublime-color-scheme",
+				"/home/egg/.config/sublime-text/Packages/User/Midnight-dark.sublime-theme",
+				"/home/egg/.config/sublime-text/Packages/Theme - Midnight/Midnight-dark.sublime-theme",
+				"/home/egg/.config/sublime-text/Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+				"/home/egg/.config/sublime-text/Packages/User/Mariana.sublime-color-scheme",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 2/multiagent/game.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 2/multiagent/pacman.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 2/multiagent/util.py",
+				"/home/egg/.zshrc",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/tasks/setup.sh",
+				"/home/egg/Documents/Scripts/switch_refresh_rate.sh",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Python/linali/src/utils/config_utils.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 2/multiagent/multiAgents.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 1/searchAgents.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 1/search.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 1/util.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 1/pacman.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 1/game.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 1/test_cases/q2/graph_infinite.test",
+				"/home/egg/Downloads/hyprland.conf.txt",
+				"/home/egg/.config/waybar/config",
+				"/home/egg/.config/waybar/style.css",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Arch_kernel/linux/PKGBUILD",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Arch_kernel/linux/config",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/The Complete 2023 Web Development Bootcamp/notes.md",
+				"/usr/share/applications/thunar.desktop",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/tutorial/shopSmart.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/tutorial/shopAroundTown.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Arch kernel/linux/config",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 330/CSE330-OS/test_zip_contents.sh",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 330/Project 1/test_zip_contents.sh",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 340/Final Review/testing.c",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 340/Homework 2/lol/main.c",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/README.md",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/server.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/cse412-final-project/index.html",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/cse412-final-project/src/main.tsx",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/cse412-final-project/src/App.tsx",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/data/load_data.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/data/load_data.sql",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/db/PG_VERSION",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/tasks/start_db.sh",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/tasks/setup_db.sh",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/C/LetterBoxedSolver/results/results.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/C/LetterBoxedSolver/README.md",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 340/Project 3/CSE340_F24_Project 3/solution.cc",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 340/Project 3/CSE340_F24_Project 3/compiler.cc",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/C/LetterBoxedSolver/results/possiblewords.txt",
+				"/home/egg/Downloads/OrganizationEventInvitations.csv",
+				"/home/egg/.config/zed/settings.json",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/TEMP/irelia build?.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/.venv/bin/pip",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/.venv/lib/python3.12/site-packages/pip/__pip-runner__.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/.venv/lib/python3.12/site-packages/pip/__main__.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/.venv/lib/python3.12/site-packages/pip/__init__.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/.venv/bin/activate",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Python/linali/models/speecht5_tts_expresso/sad/config.json",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Python/linali/models/speecht5_tts_expresso/sad/added_tokens.json",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/start_pg_server.sh",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Python/linali/models/speecht5_tts_expresso/sad/generation_config.json",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 412/start_pg_server.sh",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Python/linali/data/librispeech/LibriSpeech/dev-clean/84/121123/84-121123.trans.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Python/linali/data/librispeech/LibriSpeech/dev-clean/2803/154320/2803-154320.trans.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Python/linali/data/librispeech/LibriSpeech/dev-clean/1993/147149/1993-147149.trans.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 412/hw1/hw1/makefile",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 412/stop_pg_server.sh",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/linali/data/vctk/license_text",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 412/set_env_vars.sh",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/linali/data/vctk/README.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 412/set_pg_port.sh",
+				"/home/egg/.config/pnpm/rc",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 412/hw1/hw1/setup_postgres/create_tables.sql",
+				"/home/egg/Downloads/SearchBot_results_for_ Legend.txt",
+				"/home/egg/Documents/Misc/ebook irc instructions.txt",
+				"/home/egg/Downloads/SearchBot_results_for_ James Patterson.txt",
+				"/home/egg/Documents/Misc/confirmation number.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/The Complete 2023 Web Development Bootcamp/notes.md",
+				"/home/egg/photorec.ses",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/DAT 301/Lab 1/Lab-1.log",
+				"/home/egg/hs_err_pid7637.log",
+				"/home/egg/nano.3324.save",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/ai-openmic/AI_open_mic_dataset/funny_text/SM_IGT_text_18.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 355/Homework 01/Q1a.jff",
+				"/home/egg/Downloads/OrganizationRoster.csv",
+				"/home/egg/Downloads/font temp/info.txt",
+				"/home/egg/.irssi/config",
+				"/home/egg/Downloads/SearchBot_results_for_ Novae Caelum.txt",
+				"/home/egg/Documents/ebook irc instructions.txt",
+				"/home/egg/Downloads/font temp/misc/READ ME.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/raw/VAD_segments.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/raw/read_transcriptions.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/expresso/read_transcriptions.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/expresso/README.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/expresso/LICENSE.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/expresso/splits/dev.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/expresso/splits/train.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/expresso/splits/test.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 340/Project 1/Project1_files/tests/test_realnum_03.txt.expected",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Web Dev/osteofelidae.github.io/osteofelidae.github.io/public/manifest.json",
+				"/home/egg/Documents/openvpn/USA_195.123.240.66_tcp.ovpn",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Web Dev/osteofelidae.github.io/osteofelidae.github.io/src/reportWebVitals.js",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Web Dev/osteofelidae.github.io/osteofelidae.github.io/src/setupTests.js",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/cache/tts/test3.wav",
+				"/home/egg/Downloads/OrganizationRoster-2024Mar11.csv",
+				"/home/egg/Downloads/dataset temp/temp.py",
+				"/home/egg/Downloads/dataset temp/out.json"
+			],
+			"find":
+			{
+				"height": 58.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"constructBayes",
+					"DiscreteDis",
+					"distribution",
+					"observeUpdate",
+					"elapse",
+					"chooseAc",
+					"devia",
+					"seven",
+					"7",
+					"print",
+					"distri",
+					"main"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 36.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 66.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1200.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"living",
+						"livingGhostPositionDistributions"
+					],
+					[
+						"livingGh",
+						"livingGhostPositionDistributions"
+					],
+					[
+						"po",
+						"potentialGhostPosition"
+					],
+					[
+						"ghos",
+						"ghostLosses"
+					],
+					[
+						"gho",
+						"ghostLosses"
+					],
+					[
+						"ghost",
+						"ghostPos"
+					],
+					[
+						"new",
+						"newGhostStates"
+					],
+					[
+						"cho",
+						"chosenIndex"
+					],
+					[
+						"Start",
+						"startingPosition"
+					],
+					[
+						"get",
+						"getSuccessors"
+					],
+					[
+						"getS",
+						"getSuccessors"
+					],
+					[
+						"art",
+						"artist_id"
+					],
+					[
+						"upda",
+						"updateCacheIndex"
+					],
+					[
+						"cached",
+						"cachedCurr"
+					],
+					[
+						"cac",
+						"cachedIndex"
+					],
+					[
+						"ca",
+						"cachedPrev"
+					],
+					[
+						"cach",
+						"cachedCurr"
+					],
+					[
+						"getDi",
+						"getDijkstraPath"
+					],
+					[
+						"his",
+						"history_count"
+					],
+					[
+						"blo",
+						"blocksAvailable"
+					],
+					[
+						"random",
+						"randomNumber2"
+					],
+					[
+						"align",
+						"align-items"
+					],
+					[
+						"justify",
+						"justify-items"
+					],
+					[
+						"content",
+						"align-content"
+					]
+				]
+			},
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"color",
+						"UI: Select Color Scheme"
+					],
+					[
+						"theme",
+						"UI: Select Theme"
+					],
+					[
+						"customi",
+						"UI: Customize Color Scheme"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"customize color",
+						"UI: Customize Color Scheme"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					],
+					[
+						"remove ",
+						"Package Control: Remove Package"
+					],
+					[
+						"ayu",
+						"ayu: Activate theme"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"packa",
+						"Package Control: Remove Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 4/tracking/inference.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 4/tracking/bayesNet.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 4/tracking/factorOperations.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 4/tracking/bustersAgents.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 4/tracking/autograder.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Dotfiles/subfolders.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Dotfiles/sync.sh",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Dotfiles/dotfiles/waybar/config",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Dotfiles/dotfiles/waybar/style.css",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Web Dev/osteofelidae.github.io/v4/index.html",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Web Dev/osteofelidae.github.io/v4/style.css",
+				"/home/egg/.config/hypr/hyprland.conf",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/C/Desktop Entry Manager/src/main.c",
+				"/home/egg/.config/sublime-text/Packages/User/ayu-dark.sublime-color-scheme",
+				"/home/egg/.config/sublime-text/Packages/ayu/ayu-dark.sublime-color-scheme",
+				"/home/egg/.config/sublime-text/Packages/Theme - Cyanide/Twilightcyanide.tmTheme",
+				"/home/egg/.config/sublime-text/Packages/User/Twilightcyanide.sublime-color-scheme",
+				"/home/egg/.config/sublime-text/Packages/User/Cyanide - Wood.sublime-theme",
+				"/home/egg/.config/sublime-text/Packages/Theme - Cyanide/Cyanide - Wood.sublime-theme",
+				"/home/egg/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+				"/home/egg/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+				"/home/egg/.config/sublime-text/Packages/Theme - Midnight/Midnight.dark.tmTheme",
+				"/home/egg/.config/sublime-text/Packages/User/Midnight.dark.sublime-color-scheme",
+				"/home/egg/.config/sublime-text/Packages/User/Midnight-dark.sublime-theme",
+				"/home/egg/.config/sublime-text/Packages/Theme - Midnight/Midnight-dark.sublime-theme",
+				"/home/egg/.config/sublime-text/Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+				"/home/egg/.config/sublime-text/Packages/User/Mariana.sublime-color-scheme",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 2/multiagent/game.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 2/multiagent/pacman.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 2/multiagent/util.py",
+				"/home/egg/.zshrc",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/tasks/setup.sh",
+				"/home/egg/Documents/Scripts/switch_refresh_rate.sh",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Python/linali/src/utils/config_utils.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 2/multiagent/multiAgents.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 1/searchAgents.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 1/search.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 1/util.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 1/pacman.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 1/game.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/Project 1/test_cases/q2/graph_infinite.test",
+				"/home/egg/Downloads/hyprland.conf.txt",
+				"/home/egg/.config/waybar/config",
+				"/home/egg/.config/waybar/style.css",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Arch_kernel/linux/PKGBUILD",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Arch_kernel/linux/config",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/The Complete 2023 Web Development Bootcamp/notes.md",
+				"/usr/share/applications/thunar.desktop",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/tutorial/shopSmart.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 471/tutorial/shopAroundTown.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Arch kernel/linux/config",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 330/CSE330-OS/test_zip_contents.sh",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 6/CSE 330/Project 1/test_zip_contents.sh",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 340/Final Review/testing.c",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 340/Homework 2/lol/main.c",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/README.md",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/server.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/cse412-final-project/index.html",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/cse412-final-project/src/main.tsx",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/cse412-final-project/src/App.tsx",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/data/load_data.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/data/load_data.sql",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/db/PG_VERSION",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/tasks/start_db.sh",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/tasks/setup_db.sh",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/C/LetterBoxedSolver/results/results.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/C/LetterBoxedSolver/README.md",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 340/Project 3/CSE340_F24_Project 3/solution.cc",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 340/Project 3/CSE340_F24_Project 3/compiler.cc",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/C/LetterBoxedSolver/results/possiblewords.txt",
+				"/home/egg/Downloads/OrganizationEventInvitations.csv",
+				"/home/egg/.config/zed/settings.json",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/TEMP/irelia build?.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/.venv/bin/pip",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/.venv/lib/python3.12/site-packages/pip/__pip-runner__.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/.venv/lib/python3.12/site-packages/pip/__main__.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/.venv/lib/python3.12/site-packages/pip/__init__.py",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/CSE412-Final-Project/.venv/bin/activate",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Python/linali/models/speecht5_tts_expresso/sad/config.json",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Python/linali/models/speecht5_tts_expresso/sad/added_tokens.json",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/ASU/Semester 5/CSE 412/start_pg_server.sh",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Python/linali/models/speecht5_tts_expresso/sad/generation_config.json",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 412/start_pg_server.sh",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Python/linali/data/librispeech/LibriSpeech/dev-clean/84/121123/84-121123.trans.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Python/linali/data/librispeech/LibriSpeech/dev-clean/2803/154320/2803-154320.trans.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/Python/linali/data/librispeech/LibriSpeech/dev-clean/1993/147149/1993-147149.trans.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 412/hw1/hw1/makefile",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 412/stop_pg_server.sh",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/linali/data/vctk/license_text",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 412/set_env_vars.sh",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/linali/data/vctk/README.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 412/set_pg_port.sh",
+				"/home/egg/.config/pnpm/rc",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 412/hw1/hw1/setup_postgres/create_tables.sql",
+				"/home/egg/Downloads/SearchBot_results_for_ Legend.txt",
+				"/home/egg/Documents/Misc/ebook irc instructions.txt",
+				"/home/egg/Downloads/SearchBot_results_for_ James Patterson.txt",
+				"/home/egg/Documents/Misc/confirmation number.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/The Complete 2023 Web Development Bootcamp/notes.md",
+				"/home/egg/photorec.ses",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/DAT 301/Lab 1/Lab-1.log",
+				"/home/egg/hs_err_pid7637.log",
+				"/home/egg/nano.3324.save",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/ai-openmic/AI_open_mic_dataset/funny_text/SM_IGT_text_18.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 355/Homework 01/Q1a.jff",
+				"/home/egg/Downloads/OrganizationRoster.csv",
+				"/home/egg/Downloads/font temp/info.txt",
+				"/home/egg/.irssi/config",
+				"/home/egg/Downloads/SearchBot_results_for_ Novae Caelum.txt",
+				"/home/egg/Documents/ebook irc instructions.txt",
+				"/home/egg/Downloads/font temp/misc/READ ME.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/raw/VAD_segments.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/raw/read_transcriptions.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/expresso/read_transcriptions.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/expresso/README.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/expresso/LICENSE.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/expresso/splits/dev.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/expresso/splits/train.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/data/expresso/expresso/splits/test.txt",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/ASU/Semester 5/CSE 340/Project 1/Project1_files/tests/test_realnum_03.txt.expected",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Web Dev/osteofelidae.github.io/osteofelidae.github.io/public/manifest.json",
+				"/home/egg/Documents/openvpn/USA_195.123.240.66_tcp.ovpn",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Web Dev/osteofelidae.github.io/osteofelidae.github.io/src/reportWebVitals.js",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Web Dev/osteofelidae.github.io/osteofelidae.github.io/src/setupTests.js",
+				"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents II/Python/atemira/cache/tts/test3.wav",
+				"/home/egg/Downloads/OrganizationRoster-2024Mar11.csv",
+				"/home/egg/Downloads/dataset temp/temp.py",
+				"/home/egg/Downloads/dataset temp/out.json"
+			],
+			"find":
+			{
+				"height": 58.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"constructBayes",
+					"DiscreteDis",
+					"distribution",
+					"observeUpdate",
+					"elapse",
+					"chooseAc",
+					"devia",
+					"seven",
+					"7",
+					"print",
+					"distri",
+					"main"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 36.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,0,1174,1396,2400,1500,0",
+			"replace":
+			{
+				"height": 66.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 93
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/run/media/egg/fb308d32-c202-4d73-bf4e-c3bf8394641f/Documents/C/Desktop Entry Manager.sublime-workspace"
+		]
+	}
+}

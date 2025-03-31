@@ -1,0 +1,28 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+
+	"variables":
+	{
+		"bg": "#1c1c1c",
+		"fg1": "#98a69f",
+		"fg2": "#f3e9d1"
+	},
+	"globals":
+	{
+		
+		"caret": "var(fg1)",
+		"foreground": "var(fg2)",
+		"invisibles": "var(fg1)",
+		"selection": "#00000000",
+		"selection_border": "var(fg2)",
+		"inactive_selection": "#00000000",
+		"inactive_selection_border": "var(fg2)",
+		"find_highlight_background": "#00000000",
+		"find_highlight_outline": "var(fg1)"
+
+	},
+	"rules":
+	[
+		
+	]
+}
